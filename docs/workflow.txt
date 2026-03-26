@@ -1,0 +1,14 @@
+Genome annotation workflow:
+
+RNA-seq + Protein evidence
+        ↓
+    BRAKER3
+(GeneMark-ETP + AUGUSTUS)
+        ↓
+   Raw gene models
+        ↓
+Longest isoform filtering
+        ↓
+     BUSCO QC
+        ↓
+Final annotation assessment
